@@ -1,1 +1,1 @@
-# natours-projects
+# natours-project
