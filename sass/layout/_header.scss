@@ -1,0 +1,37 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient( to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8)), url(../img/scuba.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0%, 100% 0%, 100% 75vh, 0 100%);
+    position: relative;
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    &__logo {
+        height: 3rem;
+    }
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    /*video {
+  top: 0px; 
+  left: 0px; 
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; 
+}*/
+    /*.brightness{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'brightness\'><feColorMatrix type=\'matrix\' values=\'1.2 0 0 0 0 0 1.2 0 0 0 0 0 1.2 0 0 0 0 0 1.2 0\'/></filter></svg>#brightness");
+    -webkit-filter:brightness(108.5%);
+}*/
+}
+
+
+
