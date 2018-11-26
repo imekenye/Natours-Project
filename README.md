@@ -9,5 +9,5 @@ No setup required.
 There no bugs but if any you contact me <a href="https://github.com/imekenye/natours-projects/issues/new">HERE</a>
 ## Technologies Used
 * HTML
-* CSS3
+* CSS3/CSS GRID
 * Sass (SCSS)
